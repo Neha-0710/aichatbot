@@ -1,8 +1,7 @@
 flask 
 flask-cors
-flask-sqlalchemy psycopg2-binary gunicorn python-dotenv
+gunicorn
 openai
 torch
 nltk
 textblob
-os
