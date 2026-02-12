@@ -1,0 +1,81 @@
+{
+    "intents": [
+        {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "How are you?", "Good morning", "Good evening"],
+        "responses": ["Hello!", "Hi there!", "Greetings!", "How can I assist you?"]
+        },
+        {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+        "responses": ["Goodbye!", "See you later!", "Take care!"]
+        },
+        {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["You're welcome!", "Glad I could help!", "Anytime!"]
+        },
+        {
+        "tag": "name",
+        "patterns": ["What is your name?", "Who are you?", "Identify yourself"],
+        "responses": ["I am a chatbot created to assist you.", "You can call me Chatbot.", "I'm here to help!"]
+        },
+        {
+        "tag": "age",
+        "patterns": ["How old are you?", "What is your age?", "When were you created?"],
+        "responses": ["I am a timeless entity, created to assist you whenever you need.", "I don't have an age, but I was created to help you!"]
+        },
+        {
+        "tag": "help",  
+        "patterns": ["Can you help me?", "I need assistance", "What can you do?"],
+        "responses": ["Of course! I can answer your questions, provide information, and assist you with various tasks. Just ask!"]
+        },
+        {
+        "tag": "weather",   
+        "patterns": ["What's the weather like?", "Is it going to rain?", "How's the weather today?"],
+        "responses": ["I don't have real-time weather information, but you can check a weather website or app for the latest updates!"]
+        },
+        {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!",
+         "Why did the scarecrow win an award? Because he was outstanding in his field!",
+         "Why don't skeletons fight each other? They don't have the guts!"]
+        },
+        {
+        "tag": "time",  
+        "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?"],
+        "responses": ["I don't have access to real-time information, but you can check the clock on your device for the current time!"]
+        },
+        {
+        "tag": "programming",
+        "patterns": ["What is programming?", "Tell me about programming", "What do you know about programming?"],
+        "responses": ["Programming is the process of creating a set of instructions that tell a computer how to perform a task.", "Programming involves writing code in various languages like Python, Java, or JavaScript to build software applications."]
+        },
+        {
+        "tag": "Artificial Intelligence",
+        "patterns": ["What is Artificial Intelligence?", "Tell me about AI", "What do you know about Artificial Intelligence?"],
+        "responses": ["Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn like humans.", "AI involves creating systems that can perform tasks typically requiring human intelligence, such as visual perception, speech recognition, decision-making, and language translation."]
+        },
+        {
+        "tag": "Machine Learning",  
+        "patterns": ["What is Machine Learning?", "Tell me about Machine Learning", "What do you know about Machine Learning?"],
+        "responses": ["Machine Learning is a subset of Artificial Intelligence that focuses on the development of algorithms that allow computers to learn from and make predictions or decisions based on data.", "Machine Learning involves training models on large datasets to recognize patterns and make informed decisions without being explicitly programmed for specific tasks."]
+        },
+        {
+        "tag": "Deep Learning",
+        "patterns": ["What is Deep Learning?", "Tell me about Deep Learning", "What do you know about Deep Learning?"],
+        "responses": ["Deep Learning is a subset of Machine Learning that uses neural networks with many layers (hence 'deep') to model complex patterns in data.", "Deep Learning is particularly effective for tasks such as image and speech recognition, natural language processing, and autonomous driving."]
+        },
+        {
+        "tag": "product_inquiry",
+        "patterns": ["What products do you offer?", "Tell me about your products", "What can I buy from you?"],
+        "responses": ["We offer a wide range of AI-powered tools and services designed to help businesses and individuals improve efficiency and productivity.", "Our products include AI chatbots, machine learning models, natural language processing tools, and more."]
+        },
+        {
+        "tag": "coding_help",
+        "patterns": ["Can you help me with coding?", "I need help with programming", "How do I code in Python?"],
+        "responses": ["I can help you with general programming concepts, best practices, and debugging tips.", "Feel free to ask me any specific questions about coding, and I'll do my best to assist you!"]
+        }
+    ]
+}
